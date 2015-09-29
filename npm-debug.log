@@ -1,0 +1,137 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json fedex-seed@1.0.0 No description
+6 warn package.json fedex-seed@1.0.0 No repository field.
+7 warn package.json fedex-seed@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'C:\\Data\\solutions\\FedExSeed',
+9 verbose install   [ '@trademe/tangram',
+9 verbose install     'angular',
+9 verbose install     'angular-route',
+9 verbose install     'bluebird',
+9 verbose install     'brfs',
+9 verbose install     'browserify',
+9 verbose install     'express',
+9 verbose install     'gulp',
+9 verbose install     'gulp-derequire',
+9 verbose install     'gulp-ng-annotate',
+9 verbose install     'jspm',
+9 verbose install     'lodash',
+9 verbose install     'sassify',
+9 verbose install     'systemjs',
+9 verbose install     'tsd',
+9 verbose install     'tsify',
+9 verbose install     'typescript',
+9 verbose install     'vinyl-buffer',
+9 verbose install     'vinyl-source-stream',
+9 verbose install     'watchify' ] ]
+10 info preinstall fedex-seed@1.0.0
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ '@trademe/tangram@0.0.12', null ]
+13 verbose cache add name=undefined spec="@trademe/tangram@0.0.12" args=["@trademe/tangram@0.0.12",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '@trademe/tangram@0.0.12',
+14 verbose parsed url   path: '@trademe/tangram@0.0.12',
+14 verbose parsed url   href: '@trademe/tangram@0.0.12' }
+15 verbose already installed skipping angular@1.4.5 C:\Data\solutions\FedExSeed
+16 verbose already installed skipping angular-route@1.4.5 C:\Data\solutions\FedExSeed
+17 verbose already installed skipping bluebird@2.9.34 C:\Data\solutions\FedExSeed
+18 verbose already installed skipping brfs@1.4.1 C:\Data\solutions\FedExSeed
+19 verbose already installed skipping browserify@11.0.1 C:\Data\solutions\FedExSeed
+20 verbose already installed skipping express@4.13.3 C:\Data\solutions\FedExSeed
+21 verbose already installed skipping gulp@3.9.0 C:\Data\solutions\FedExSeed
+22 verbose already installed skipping gulp-derequire@2.1.0 C:\Data\solutions\FedExSeed
+23 verbose already installed skipping gulp-ng-annotate@1.1.0 C:\Data\solutions\FedExSeed
+24 verbose already installed skipping jspm@^0.16.9 C:\Data\solutions\FedExSeed
+25 verbose already installed skipping lodash@3.10.1 C:\Data\solutions\FedExSeed
+26 verbose already installed skipping sassify@0.9.1 C:\Data\solutions\FedExSeed
+27 verbose already installed skipping systemjs@0.19.2 C:\Data\solutions\FedExSeed
+28 verbose already installed skipping tsd@0.6.4 C:\Data\solutions\FedExSeed
+29 verbose already installed skipping tsify@0.11.11 C:\Data\solutions\FedExSeed
+30 verbose already installed skipping typescript@1.5.3 C:\Data\solutions\FedExSeed
+31 verbose cache add name="" spec="trademe/tangram@0.0.12" args=["","trademe/tangram@0.0.12"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'trademe/tangram@0.0.12',
+32 verbose parsed url   path: 'trademe/tangram@0.0.12',
+32 verbose parsed url   href: 'trademe/tangram@0.0.12' }
+33 verbose cache add name="trademe/tangram" spec="0.0.12" args=["trademe/tangram","0.0.12"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '0.0.12',
+34 verbose parsed url   path: '0.0.12',
+34 verbose parsed url   href: '0.0.12' }
+35 verbose addNamed [ 'trademe/tangram', '0.0.12' ]
+36 verbose addNamed [ '0.0.12', '0.0.12' ]
+37 silly lockFile 0c5a102c-trademe-tangram-0-0-12 trademe/tangram@0.0.12
+38 verbose lock trademe/tangram@0.0.12 C:\Users\keneselautusi\AppData\Roaming\npm-cache\0c5a102c-trademe-tangram-0-0-12.lock
+39 verbose request where is /trademe/tangram
+40 verbose request registry https://registry.npmjs.org/
+41 verbose request id 71e26e0db766f99e
+42 verbose url raw /trademe/tangram
+43 verbose url resolving [ 'https://registry.npmjs.org/', './trademe/tangram' ]
+44 verbose url resolved https://registry.npmjs.org/trademe/tangram
+45 verbose request where is https://registry.npmjs.org/trademe/tangram
+46 info trying registry request attempt 1 at 17:02:29
+47 http GET https://registry.npmjs.org/trademe/tangram
+48 verbose already installed skipping vinyl-buffer@1.0.0 C:\Data\solutions\FedExSeed
+49 verbose already installed skipping vinyl-source-stream@1.1.0 C:\Data\solutions\FedExSeed
+50 verbose already installed skipping watchify@3.4.0 C:\Data\solutions\FedExSeed
+51 http 404 https://registry.npmjs.org/trademe/tangram
+52 silly registry.get cb [ 404,
+52 silly registry.get   { 'content-type': 'application/json',
+52 silly registry.get     'cache-control': 'max-age=0',
+52 silly registry.get     'content-length': '2',
+52 silly registry.get     'accept-ranges': 'bytes',
+52 silly registry.get     date: 'Thu, 24 Sep 2015 05:02:30 GMT',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     age: '0',
+52 silly registry.get     connection: 'keep-alive',
+52 silly registry.get     'x-served-by': 'cache-wlg7320-WLG',
+52 silly registry.get     'x-cache': 'MISS',
+52 silly registry.get     'x-cache-hits': '0',
+52 silly registry.get     'x-timer': 'S1443070950.009834,VS0,VE697' } ]
+53 silly lockFile 0c5a102c-trademe-tangram-0-0-12 trademe/tangram@0.0.12
+54 silly lockFile 0c5a102c-trademe-tangram-0-0-12 trademe/tangram@0.0.12
+55 error 404 Not Found
+55 error 404
+55 error 404 'trademe/tangram' is not in the npm registry.
+55 error 404 You should bug the author to publish it
+55 error 404 It was specified as a dependency of 'fedex-seed'
+55 error 404
+55 error 404 Note that you can also install from a
+55 error 404 tarball, folder, or http url, or git url.
+56 error System Windows_NT 6.2.9200
+57 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+58 error cwd C:\Data\solutions\FedExSeed
+59 error node -v v0.10.35
+60 error npm -v 1.4.28
+61 error code E404
+62 verbose exit [ 1, true ]

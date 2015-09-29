@@ -1,0 +1,21 @@
+<div>
+    <h1>Widgets</h1>
+
+    <div ng-if="!list.hasResults" class="not-found-message">
+        No widgets were found!
+    </div>
+
+    <div ng-if="list.hasResults">
+        <div ng-repeat="widget in list.widgets">
+            <div class="widget-card">
+                <h2 class="widget-card__title">{{ widget.title }}</h2>
+                <p>{{ widget.truncatedDescription }}</p>
+                <a ng-attr-href="/widget/{{ widget.id }}">View widget {{ widget.id }}</a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <tg-button type="button" ng-click="list.displayWidgetCount()">Count widgets</tg-button>
+    </div>
+</div>

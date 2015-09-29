@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-controller="appController as app">
+    <head>
+        <title ng-bind="app.title">Loading FedEx App...</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta charset="utf-8" />
+        <meta name="fragment" content="!" />
+        <base href="/" />
+        <link rel="stylesheet" href="//hello.myfonts.net/count/2dede4" />
+        <link rel="stylesheet" href="index.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+        <style>.ng-cloak { display: none; }</style>
+    </head>
+    <body>
+        <header class="ng-cloak">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+                    <li>
+                        <a class="o-nav-top__link" href="/widgets">Widgets</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main ng-view>Loading...</main>
+
+        <script src="jspm_packages/system.js"></script>
+        <script src="config.js"></script>
+        <script>
+            System.import('app/Entry.ts');
+        </script>
+    </body>
+</html>

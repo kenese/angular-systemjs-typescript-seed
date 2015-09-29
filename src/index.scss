@@ -1,0 +1,9 @@
+// Entry point for the sass.
+
+@import "./app/features/about/about";
+@import "./app/features/home/home";
+@import "./app/features/widgets/widgets";
+
+.ng-cloak {
+    display: none;
+}

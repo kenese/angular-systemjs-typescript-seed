@@ -1,0 +1,16 @@
+<div>
+    <h1>Widget details</h1>
+    <div ng-if="details.showNotFoundMessage"
+            class="not-found-message">
+        Widget {{ details.widgetId }} not found!
+    </div>
+    <div class="widget-details">
+        <h1>
+            <small>widget# {{ details.widgetId }}</small>
+        </h1>
+        <p>{{ details.widget.description }}</p>
+    </div>
+    <p>
+        Show <a href="/widgets">all widgets</a>.
+    </p>
+</div>
